@@ -12,8 +12,11 @@ shinyUI(
       h3('Results of prediction'),
       h4('You entered'),
       verbatimTextOutput("inputValue"),
-      h4('Which resulted in a prediction of ($ USD)'),
-      verbatimTextOutput("prediction")
+      h4('Which resulted in a prediction of ($ Singapore Dollars)'),
+      verbatimTextOutput("prediction"),
+      
+      h4('Usage'),
+      p('To use the app, Please enter the size of diamond in carats in input box and press enter or click submit')
     )
   )
 )
